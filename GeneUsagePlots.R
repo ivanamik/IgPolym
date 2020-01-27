@@ -1,6 +1,8 @@
 #load ("~/naive_VDJ_genotyped_Dec19_Vmut3.rda") 
-# H.Data is a list of data frames, where each data frame contains the final 
-# genotyped data by TIgGER (after realignment using the person's own germline database as a reference)
+# 
+# The loaded data (H.Data) is a list of Change-O's (https://changeo.readthedocs.io/en/stable/) MakeDb output files. 
+# Data.frame with the folowing columns will be applicable: V_CALL, V_SEQ_LENGTH
+#
 
 #install.packages("dplyr")
 #install.packages("stringr")
